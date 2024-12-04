@@ -8,6 +8,5 @@ docker-build:
 
 	
 docker-push:
-	docker push ${REGISTRY}/php${PHP_VERSION}-cli-base:${VERSION} . 
+	docker push ${REGISTRY}/php${PHP_VERSION}-cli-base:${VERSION}
   
-
